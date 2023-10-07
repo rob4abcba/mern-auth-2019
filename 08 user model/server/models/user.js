@@ -1,7 +1,7 @@
 const mongoose = require("mongoose"); //MC: 08 user model is FIRST version of server/models/user.js
 const crypto = require("crypto"); //MC: crypto is a core module.  No need to npm install it.
 // user schema
-const userScheama = new mongoose.Schema(
+const userScheama = new mongoose.Schema( //MG: Intentionally misspelled Schema in variable name userScheama to allow different string for universal search
   {
     name: {
       type: String,
